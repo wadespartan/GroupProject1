@@ -1,0 +1,38 @@
+<!doctype>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Fire Experiment</title>
+<script>
+
+onload=init
+
+
+</script>
+<style>
+section{background:red;
+height:60px;
+width:35px;
+-moz-animation:mymove 5s infinite; /* Firefox */
+  -webkit-animation: bob .1s infinite;
+      background: url(img/flame-sprite.gif);
+	  margin-bottom:-120px;
+	  margin-left:90px;
+}
+@-webkit-keyframes bob{
+	  0%, 
+    100%{background-position:0px 0px; opacity:.8 }
+    25% {background-position:-100px 0px;}
+    50% {background-position:-200px 0px;; opacity:.4;}
+    75% {background-position:-100px 0px;}	
+}
+#lighter{ padding-top:100px;
+	}
+</style>
+</head>
+<body>
+<section></section>
+<img id="lighter" src="img/lighter.gif" width="350" height="460" alt="lighter">
+
+</body>
+</html>

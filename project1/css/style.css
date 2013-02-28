@@ -1,0 +1,27 @@
+.flame{
+  border-radius:20px;
+  -webkit-border-radius: 20px;
+  -webkit-animation: BALLBOUNCE;
+  -webkit-animation-duration: 1.5s;
+  background:red;
+
+
+}
+
+@-webkit-keyframes BALLBOUNCE{
+
+  0%{
+    /*START*/
+    top:150px;
+    width:40px;
+    height:40px;
+
+    
+  }
+  5%{
+    /* ANTICIPATION  */
+    top:120px;
+    width:20px;
+    height:70px;
+    
+  }}
